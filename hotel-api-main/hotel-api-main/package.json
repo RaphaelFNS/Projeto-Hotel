@@ -1,11 +1,4 @@
-{
-    "name": "mhotel-api",
-    "version": "1.0.0",
-    "main": "index.js",
-    "repository": "https://github.com/IgorAtilar/MHotel-API.git",
-    "author": "Igor Atilar <igoratilar10@gmail.com>",
-    "license": "MIT",
-    "scripts": {
+{   "scripts": {
         "dev": "ts-node-dev -r tsconfig-paths/register src/index.ts",
         "tables": "ts-node-dev -r tsconfig-paths/register src/scripts/create-tables/index.ts"
     },
