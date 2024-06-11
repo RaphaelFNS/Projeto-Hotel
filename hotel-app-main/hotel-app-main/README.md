@@ -2,7 +2,7 @@
 
 # Sobre
 
-Essa é a API do projeto Hotel App que foi desenvolvido em um trabalho da matéria de banco de dados do curso de Sistemas de Informação da PUC Minas. O objetivo do projeto é facilitar o cotidiano de um hotel facilitando o cadastro de clientes e suas reservas, além de unificar todas as informações em um só lugar. Ele foi dividido em duas partes:
+ O objetivo do projeto é facilitar o cotidiano de um hotel facilitando o cadastro de clientes e suas reservas, além de unificar todas as informações em um só lugar. Ele foi dividido em duas partes:
 
 - Front-end que consome uma API e permite realizar as operações de Create (Criar), Read (Ler), Update (Atualizar) e Delete (Deletar) de forma simplificada.
 
