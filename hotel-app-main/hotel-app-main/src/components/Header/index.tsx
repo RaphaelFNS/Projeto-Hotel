@@ -41,7 +41,7 @@ export const Header = ({ ...rest }: HeaderProps) => {
           aria-label='Abrir menu'
           icon={<Icon as={FiMenu} />}
           fontSize='24'
-          color='gray.500'
+          color='#007FFF'
           variant='unstyled'
           onClick={onOpen}
           mr='2'

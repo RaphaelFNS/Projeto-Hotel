@@ -17,7 +17,7 @@ export const Sidebar = () => {
     <Drawer isOpen={isOpen} placement='left' onClose={onClose}>
       <DrawerOverlay>
         <DrawerContent p='4' bg='gray.50'>
-          <DrawerCloseButton mt='6' color='gray.900' />
+          <DrawerCloseButton mt='6' color='#007FFF' />
           <DrawerHeader color='gray.500'>Menu</DrawerHeader>
           <DrawerBody>
             <SidebarNav />

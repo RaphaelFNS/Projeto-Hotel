@@ -31,7 +31,7 @@ export const Menu = () => {
             cursor='pointer'
             alignItems='center'
             _hover={{
-              color: 'cyan.500',
+              color: '#007FFF',
             }}
           >
             <Icon as={FiUsers} />
@@ -44,7 +44,7 @@ export const Menu = () => {
             cursor='pointer'
             alignItems='center'
             _hover={{
-              color: 'cyan.500',
+              color: '#007FFF',
             }}
           >
             <Icon as={FiClipboard} />
@@ -57,7 +57,7 @@ export const Menu = () => {
             cursor='pointer'
             alignItems='center'
             _hover={{
-              color: 'cyan.500',
+              color: '#007FFF',
             }}
           >
             <Icon as={FiBriefcase} />
@@ -70,7 +70,7 @@ export const Menu = () => {
             cursor='pointer'
             alignItems='center'
             _hover={{
-              color: 'cyan.500',
+              color: '#007FFF',
             }}
           >
             <Icon as={FiCreditCard} />
@@ -83,7 +83,7 @@ export const Menu = () => {
             cursor='pointer'
             alignItems='center'
             _hover={{
-              color: 'cyan.500',
+              color: '#007FFF',
             }}
           >
             <Icon as={FiFlag} />
@@ -96,7 +96,7 @@ export const Menu = () => {
             cursor='pointer'
             alignItems='center'
             _hover={{
-              color: 'cyan.500',
+              color: '#007FFF',
             }}
           >
             <Icon as={FiAward} />

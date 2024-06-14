@@ -39,7 +39,7 @@ const SignUp: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Cadastro - Hotel App</title>
+        <title>Cadastro - Hotel Santos Beachfront</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Flex
@@ -48,8 +48,8 @@ const SignUp: NextPage = () => {
         h='100vh'
         align='center'
         justify='center'
-        flexDirection='column'
-        bgImage='/images/home-bg.png'
+        flexDirection='column' 
+        bgImage='/images/hotel-presidente.png'
         bgColor='gray.200'
         bgSize='cover'
         bgRepeat='no-repeat'
@@ -65,7 +65,7 @@ const SignUp: NextPage = () => {
           flexDir='column'
           onSubmit={handleSubmit(handleSignUp)}
         >
-          <Text fontSize='xl' fontWeight='normal' color='cyan.900' mb='4'>
+          <Text fontSize='xl' fontWeight='normal' color='#007FFF' mb='4'>
             Cadastro
           </Text>
           <Stack spacing={4}>
@@ -94,7 +94,7 @@ const SignUp: NextPage = () => {
           <Button
             type='submit'
             mt='6'
-            colorScheme='teal'
+            colorScheme='blue'
             variant='solid'
             isLoading={isSubmitting}
           >
@@ -103,7 +103,7 @@ const SignUp: NextPage = () => {
           <Text mt='6' fontSize='sm' fontWeight='normal' textAlign='center'>
             Já possui conta?{' '}
             <Link href='/' passHref>
-              <Button as='a' colorScheme='teal' variant='link'>
+              <Button as='a' colorScheme='blue' variant='link'>
                 Login
               </Button>
             </Link>
