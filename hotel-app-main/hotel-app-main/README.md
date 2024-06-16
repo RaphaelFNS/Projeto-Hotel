@@ -1,4 +1,4 @@
-# ![Logo do Projeto](https://user-images.githubusercontent.com/73081443/182045950-f5f23ee8-6470-4e94-b0e9-0a195986b5bb.png) Hotel App
+# Hotel Santos Beachfront
 
 # Sobre
 
