@@ -48,7 +48,7 @@ const SignIn: NextPage = () => {
         align='center'
         justify='center'
         flexDirection='column'
-        bgImage='/images/home-bg.png'
+        bgImage='/images/hotel-login.png'
         bgColor='gray.200'
         bgSize='cover'
         bgRepeat='no-repeat'
@@ -69,7 +69,7 @@ const SignIn: NextPage = () => {
           </Text>
           <Stack spacing={4}>
             <Input
-              type='text'
+              type='text' 
               label='E-mail'
               placeholder='Insira o seu e-mail'
               error={errors.email}
@@ -77,7 +77,7 @@ const SignIn: NextPage = () => {
             />
             <Input
               type='password'
-              label='Senha'
+              label='Senha' 
               placeholder='Insira a sua senha'
               error={errors.password}
               {...register('password')}
@@ -92,7 +92,7 @@ const SignIn: NextPage = () => {
           >
             Entrar
           </Button>
-          <Text mt='6' fontSize='sm' fontWeight='normal' textAlign='center'>
+          <Text mt='6' fontSize='sm' fontWeight='normal' textAlign='center' color="white">
             Não possui conta?{' '}
             <Link href='/cadastro' passHref>
               <Button as='a' colorScheme='blue' variant='link'>

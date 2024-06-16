@@ -49,7 +49,7 @@ const SignUp: NextPage = () => {
         align='center'
         justify='center'
         flexDirection='column' 
-        bgImage='/images/hotel-presidente.png'
+        bgImage='/images/hotel-login.png'
         bgColor='gray.200'
         bgSize='cover'
         bgRepeat='no-repeat'
@@ -69,7 +69,7 @@ const SignUp: NextPage = () => {
             Cadastro
           </Text>
           <Stack spacing={4}>
-            <Input
+            <Input 
               type='text'
               label='Nome'
               placeholder='Insira o seu nome'
@@ -77,11 +77,12 @@ const SignUp: NextPage = () => {
               {...register('name')}
             />
             <Input
-              type='text'
+              type='text' 
               label='E-mail'
               placeholder='Insira o seu e-mail'
               error={errors.email}
-              {...register('email')}
+              {...register('email')} 
+              
             />
             <Input
               type='password'
@@ -100,7 +101,7 @@ const SignUp: NextPage = () => {
           >
             Cadastrar
           </Button>
-          <Text mt='6' fontSize='sm' fontWeight='normal' textAlign='center'>
+          <Text mt='6' fontSize='sm' fontWeight='normal' textAlign='center' color="white">
             Já possui conta?{' '}
             <Link href='/' passHref>
               <Button as='a' colorScheme='blue' variant='link'>
